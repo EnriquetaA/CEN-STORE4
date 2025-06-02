@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <title>CEN STORE</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="cabecera"> 
+        <h1 id="tienda-en-linea">CEN STORE</h1>
+ <nav>
+    <Ul>
+        <div class="menu-contenedor">
+        <li><a href="#" class="button">Productos</a></Li>
+        <li><a href="#" class="button">Registro</a></li>
+        <li><a href="#" class="button">Inicio de sesion</a></li>
+        <li><a href="pages/carrito.html">Carrito</a></li>
+        </div>
+    </Ul>
+</nav>
+    </header>
+    <main>
+        <section id="Productos">
+            <h1>Productos</h1>
+            <h2>Auriculares</h2>
+           <div class="Productos">
+             <span class="productos"></span>
+            <img src="imagenes/{F4B39EB7-90D4-4F2F-8EB0-D354FF966CFE}.png" alt="auricular inalambrico"> 
+            <p>Auriculares Picun B8 Bluetooth  </p>
+             <p>120h Auriculares de Tiempo 3</p> 
+               <p>$ 65.377</p>
+             <button>Comprar</button>
+            <section>
+                 <div class="productos1">
+              <img src="imagenes/{C51770D8-84C7-4AF2-A1AF-6F3FC50FB30B}.png" alt="auriculares deportivos">
+              <p>Auriculares deportivos IKG, auriculares Bluetooth 5.3 con powerbank, 120h Hifi Estereo con 4DH Micro y cancelacion de ruido ENC, IPX7 impermeable, casco inalambrico in Ear Running.</p> 
+              <p>$ 35.999</p>
+              <button comprar>comprar</button>
+            </div>
+            </section>
+        </section>
+        <section id="registro">
+            <h1>Registro</h1>
+            <form>
+                <label for="registro">Nombre</label>
+                <input type="text" id="registro" name="nombre" required>
+                <label for="email">correo electronico:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- al inspeccionar la consola me indica que tengo un erro y no entiendo la solucion me pueden ayura por favor???? -->
+                <label for="password">Contraseña:</label> 
+                <input type="password" id="password" name="password" required>
+                <label for="password">Confirmacion de Contraseña:</label>
+                <input type="password" id="confirm-password" name="confirmacion de contraseña">
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+        <section id="Iniciar-sesion">
+             <h1>Iniciar sesion</h1> 
+             <!-- <form action="index.js" method="get"> esto queda pendiente cuando se vea java -->
+                <label for="user">Usuario</label>
+                <input type="text" id="user" name="user">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Entrar</button>
+             </form>
+        </section>
+        <section id="carrito">
+             <h1>Carrito de compras</h1>
+             <p>en construccion</p>
+             <BUtton id="Carrito-botton">Ir al carrito</BUtton>
+        </section>
+    </main>
+     <footer class="pie-pagina">
+         <section id="Contactanos">
+            <h2>Contactanos</h2>
+            <form>
+                <form action="https://formspree.io/f/mzzgpwlk"method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">correo electronico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+             <p>Copyright &copy; 2025 Enriqueta Alvarez</p></p>
+        </section>
+    
+    </footer>
+    </div>
+</body>
+</html>

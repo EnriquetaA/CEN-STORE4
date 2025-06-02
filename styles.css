@@ -1,0 +1,114 @@
+
+    #tienda-en-linea{
+        font-size: 4.5rem;
+        color:rgb(31, 173, 198);
+        text-align: center;
+        margin-top: 20px;
+    }
+    h1 {
+                color: hsl(184, 67%, 59%);
+                background-color: rgb(128, 87, 186);
+    }
+     h1 {
+                font-size: 2.5;
+                color: hsl(184, 67%, 59%);
+                background-color: rgb(128, 87, 186);
+    }  
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: hwb(176 2% 92% / 0.87);
+        line-height: 1.6;
+        margin: 20;
+        padding: 0;
+    }
+    .flex-contenedor {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+    .contenedor{
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        border: 2px solid rgb(128, 87, 186);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #f5f0f0;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="name"],
+input[type="text"],
+input[type="email"],
+input[type="password"]
+ {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contactanos {
+    width: 60%; /* Ancho base */
+    margin: 0 auto; /* Centrar */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(128, 87, 186);
+    text-align: left; /* Alineación predeterminada */
+}
+
+.contactanos h2 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px;
+}
+
+.contactanos label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactanos input,
+.contactanos textarea {
+    width: 100%; /* Ancho completo en pantallas grandes */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Incluir padding y borde en el ancho */
+}
+
+.contactanos button {
+    background-color: rgb(128, 87, 186);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+        @media (max-width: 1024px) {
+    footer {
+        font-size: 15px;
+        padding: 15px;
+        background-color: rgb(128, 87, 186);
+    }
+}
