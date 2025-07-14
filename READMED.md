@@ -19,7 +19,6 @@ FUNCIONALIDADES
 Agregar productos al carrito.(en construcción)
 Eliminar productos del carrito.(en construcción)
 Ver detalles de producto.(en construcción)
-Simulación de pago.(en construcción)
 
 INSTALACION
 1.Copia el archivo : git clone
@@ -30,7 +29,6 @@ https://enriquetaa.github.io/CEN-STORE4/
 Uso
 Ver productos.
 Agregar, verificar o eliminar productos del carrito(en construcción)
-Simular pago (en contruccion)
 
 CREDITOS
 Desarrollador  Enriqueta Alvarez.
