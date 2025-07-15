@@ -38,9 +38,4 @@ formulario.querySelectorAll('input').forEach(input => {
     })
 })
 //------------------------------------------------------------------------------------------------
-//esto es una copia de codigos
-ler productos = [
-(nombre: "Auriculares", categoria: "accesorio", precio 65),
-(nombre: "Auriculares Deportivos", categoria: "accesorio", precio 100)
-]
 
