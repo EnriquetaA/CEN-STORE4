@@ -155,3 +155,28 @@ button {
          padding: 10px 5px;
    }
  }
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ .{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+ }
+ body {
+    background-color: aquamarine;
+    .roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ }
+ }
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
